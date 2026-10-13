@@ -1,0 +1,3 @@
+Model,MAE,RMSE
+Naive baseline,229.36,284.48
+"ARIMA(1,1,1)",245.12,301.98
