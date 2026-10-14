@@ -2,7 +2,7 @@
 
 An end-to-end analytics and forecasting project that monitors care load across the CBP and HHS stages of the Unaccompanied Alien Children (UAC) program, identifies periods of capacity strain and relief, and forecasts total system load 30 days ahead. Results are presented in an interactive Streamlit dashboard.
 
-**Live dashboard:** [https://systemcapacityanalytics-online.streamlit.app/]
+**Live dashboard:** https://systemcapacityanalytics-online.streamlit.app/
 **Internship:** Unified Mentor, Machine Learning
 
 ## Problem Statement
@@ -18,7 +18,7 @@ Daily operational data exists, but there is no central framework to continuously
 
 ## Dataset
 
-720 daily records between 12 Jan 2023 and 21 Dec 2025. 355 of the 1,075 calendar days in that range have no report; gaps were interpolated for forecasting only, never filled with zero.
+The raw file has 1,170 rows, of which 450 are blank (no date, no counts) and were dropped, leaving 720 daily records between 12 Jan 2023 and 21 Dec 2025. 355 of the 1,075 calendar days in that range have no report; gaps were interpolated for forecasting only, never filled with zero.
 
 | Column | Description |
 |---|---|
@@ -124,4 +124,4 @@ SARIMA with weekly seasonality, lag-feature machine learning models, alert thres
 
 ## Author
 
-Reena, Machine Learning Internship, Unified Mentor
+Reena Jesupa S, Machine Learning Internship, Unified Mentor
